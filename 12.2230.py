@@ -9,7 +9,8 @@ for i in range(N):
 
 arr.sort()
 #print(arr)
-result = 100000000000
+#result = 100000000000
+result = 2000000000
 left, right = 0, 1
 while right<N:
     tmp = arr[right]-arr[left]
